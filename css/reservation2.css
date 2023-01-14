@@ -1,0 +1,40 @@
+body{
+	margin: 0;
+	background: rgb(147,201, 255);
+}
+.bg-area{
+	position: fixed;
+	left: -50%;
+	right: -50%;
+	top: 0;
+	bottom: 0;
+	animation: animate 5s ease-in-out infinite alternate;
+	background: linear-gradient(90deg, #1e90ff 50%, #00bfff -50%);
+	opacity: .5;
+	z-index: -1;
+}
+.layer-2{
+	animation-direction: alternate-reverse;
+	animation-duration: 3s;
+}
+.layer-3{
+	animation-duration: 3s;
+}
+.banner-text{
+	left: 50%;
+	position: fixed;
+	text-align: center;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+@keyframes animate{
+	0%{
+		transform: translate(-50%);
+	}
+	100%{
+		transform: translate(50%);
+	}
+}
+.ecrit{
+	color: rgb(255, 255, 255);
+}
