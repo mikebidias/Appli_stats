@@ -2,9 +2,9 @@
 
 
 $host = 'localhost';
-    $dbname = 'csv_db';
-    $username = 'root';
-    $password = '';
+$dbname = 'id20149174_csv_db';
+$username = 'id20149174_mikeambassa';
+    $password = '@1/wUo9-dMn>EH{1';
  
   try {
   
